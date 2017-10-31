@@ -1,6 +1,6 @@
 ## Qt Document
 
-### Qdoc 介绍 
+### Qdoc 介绍
 
 Qdoc是开发者用于在软件工程中生成文档的一个工具。它从工程的源文件中提取qdoc类型注释，并以html页面或者DITA XML文档的形式格式化到文件中。Qdoc在.cpp和.qdoc文件中查找注释，而不会在.h文件中查找。一条qdoc注释往往以一个前置声明符号（!）开始，例如：
 
@@ -69,12 +69,12 @@ inheritance hierarchy by using the \c inherits\(\) function.
 QDoc的可执行文档名为qdoc，如果要在命令行下运行，需要传入.qdocconf文件。
 
 ```
-$ ../../bin/qdoc ./config.qdocconf 
+$ ../../bin/qdoc ./config.qdocconf
 ```
 
 Qdoc把以.qdocconf结尾的参数理解为QDoc configure file，configure file是使用者用以告诉qdoc何处存放源代码文件、头文件以及.qdoc文件，同时它也指定了以何种格式（HTML、DITA XML....）输出结果，以及输出文件的位置。Configure file也包含了一些其它信息，详见下文。
 
-\#\#\# 使用single mode运行qdoc
+### 使用single mode运行qdoc
 
 从Qt5.5开始，一个使用QDoc的新的方法产生了，它可以节省生成Qt5文档所需要的时间多达90%，这个新的方法就是single mode。目前在Qt5 编译系统（qmake）中仍在使用standard mode，single mode还不可用。只有在单独使用QDoc时才能使用single mode，而这往往出现在当你想为你自己的模块制作文档并且把它和其它模块集成起来的时候。
 
