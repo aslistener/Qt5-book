@@ -131,4 +131,4 @@ flatpak 是一套集成了编译、分发、安装、运行的软件管理套件
 - [reference](https://docs.flatpak.org/en/latest/flatpak-command-reference.html)
 - [官网](https://docs.flatpak.org/en/latest/)
 - [镜像管理](https://ostree.readthedocs.io/en/latest/manual/repository-management/)
-- [Maintaining a flatpak repository]https://blogs.gnome.org/alexl/2017/02/10/maintaining-a-flatpak-repository/
+- [Maintaining a flatpak repository](https://blogs.gnome.org/alexl/2017/02/10/maintaining-a-flatpak-repository/)
